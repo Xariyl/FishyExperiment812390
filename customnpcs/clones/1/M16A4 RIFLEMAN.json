@@ -1,0 +1,732 @@
+{
+    ReturnToStart: 1b,
+    NpcInv: [
+        {
+            Slot: 0b,
+            id: "flansmod:m16a4",
+            Count: 1b,
+            tag: {
+                attachments: {
+                    barrel: {
+                    },
+                    grip: {
+                    },
+                    generic_0: {
+                    },
+                    scope: {
+                    },
+                    stock: {
+                    }
+                },
+                ammo: [
+                    {
+                        id: 4510s,
+                        Count: 1b,
+                        Damage: 30s
+                    }
+                ],
+                Paint: "M16A4"
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: "flansmod:m16a4Ammo",
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    PotionEffect: 0,
+    Size: 5,
+    stopAndInteract: 0b,
+    Resistances: {
+        Arrow: 1.0704225f,
+        Explosion: 0.0f,
+        Knockback: 1.0704225f,
+        Melee: 1.0704225f
+    },
+    BossBar: 0b,
+    RespawnTime: 60,
+    NpcAngrySound: "",
+    ReactsToFire: 0b,
+    IgnoreCobweb: 0b,
+    PositionOffsetZ: 5.0f,
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    TransformHasAI: 0b,
+    AttackStrenght: 2,
+    PersistenceRequired: 0b,
+    id: "customnpcs.CustomNpc",
+    HealF: 20.0f,
+    MovingPatern: 0,
+    NpcLines: {
+        Lines: [
+        ]
+    },
+    DefendFaction: 1b,
+    FireIndirect: 0,
+    NpcVisible: 0,
+    LinkedNpcName: "",
+    FindShelter: 2,
+    GuardTargets: [
+    ],
+    ScriptsContainers: [
+    ],
+    Air: 300s,
+    TacticalVariant: 0,
+    Orientation: 0,
+    ScriptLanguage: "ECMAScript",
+    KnockBack: 0,
+    TransformHasJob: 0b,
+    CustomName: "",
+    CanDespawn: 0b,
+    BurnInSun: 0b,
+    StandingState: 0,
+    AttackInvisible: 0b,
+    HurtTime: 0s,
+    WalkingRange: 5,
+    CustomNameVisible: 0b,
+    ShotCount: 1,
+    pDur: 5,
+    AttackRange: 2,
+    NpcKillLines: {
+        Lines: [
+            {
+                Line: "TARGET DOWN",
+                Song: "",
+                Slot: 0
+            }
+        ]
+    },
+    PotionImmune: 0b,
+    AvoidsSun: 0b,
+    GuardAttackCreepers: 1b,
+    Texture: "customnpcs:textures/entity/humanmale/Steve.png",
+    NpcJob: 3,
+    BurstCount: 30,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    pSpeed: 30,
+    pArea: 0,
+    DeathTime: 0s,
+    pImpact: 2,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 0,
+    RangeAndMelee: 1,
+    pRender3D: 0b,
+    Motion: [
+        -0.013710443243533684d,
+        -0.0784000015258789d,
+        0.019784110568536514d
+    ],
+    CombatRegen: 0,
+    pEffect: 0,
+    DistanceToMelee: 2,
+    NpcStepSound: "",
+    FireRate: 6,
+    pEffAmp: 0,
+    OnGround: 1b,
+    Dimension: 0,
+    ImmuneToFire: 0b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    GuardAttackMobs: 1b,
+    UUIDMost: 37417205720306L,
+    Fire: -1s,
+    DisablePitch: 0b,
+    pPhysics: 1b,
+    TransformHasInv: 0b,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Line: "Hello @p",
+                Song: "",
+                Slot: 0
+            }
+        ]
+    },
+    pSpin: 0b,
+    NpcHurtSound: "minecraft:game.player.hurt",
+    pTrail: 0,
+    CreatureType: 0,
+    Attributes: [
+        {
+            Base: 20.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Modifiers: [
+                {
+                    UUIDMost: -2115726411607293283L,
+                    UUIDLeast: -6396653785647787365L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -793154530073097935L,
+                    UUIDLeast: -8425335753221208664L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 4422510437756322582L,
+                    UUIDLeast: -7183817978955051474L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -7873266535243562580L,
+                    UUIDLeast: -5123814620490130130L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -3793552230756365538L,
+                    UUIDLeast: -6779442274581155286L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -3915917706320720605L,
+                    UUIDLeast: -9219136152109156484L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -1231371499087117147L,
+                    UUIDLeast: -7421726063933260905L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 6463326150324865416L,
+                    UUIDLeast: -7605813379169906121L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 5705352404344982191L,
+                    UUIDLeast: -8134466707754451375L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 171375761892658075L,
+                    UUIDLeast: -8468875101800578050L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 8234783663269364577L,
+                    UUIDLeast: -4890501722946868548L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -2376350828115767692L,
+                    UUIDLeast: -8987315320040260463L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 2124522147147301494L,
+                    UUIDLeast: -9122118408314110885L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -5368690766919744666L,
+                    UUIDLeast: -8938790969520201111L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 3487565259566695076L,
+                    UUIDLeast: -7967030731484838374L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -7065368465825643077L,
+                    UUIDLeast: -6034021104745270940L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 5924939765525925419L,
+                    UUIDLeast: -4630364325736648899L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -4988144898958733987L,
+                    UUIDLeast: -6361118428003606592L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 2738929373016182641L,
+                    UUIDLeast: -8946865253774920135L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -3801225194067177672L,
+                    UUIDLeast: -6586624321849018929L,
+                    Amount: 0.0d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -5567391469351057311L,
+                    UUIDLeast: -9050281547210412615L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                }
+            ],
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.30000001192092896d,
+            Modifiers: [
+                {
+                    UUIDMost: -2115726411607293283L,
+                    UUIDLeast: -6396653785647787365L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -793154530073097935L,
+                    UUIDLeast: -8425335753221208664L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 4422510437756322582L,
+                    UUIDLeast: -7183817978955051474L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -7873266535243562580L,
+                    UUIDLeast: -5123814620490130130L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -3793552230756365538L,
+                    UUIDLeast: -6779442274581155286L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -3915917706320720605L,
+                    UUIDLeast: -9219136152109156484L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -1231371499087117147L,
+                    UUIDLeast: -7421726063933260905L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 6463326150324865416L,
+                    UUIDLeast: -7605813379169906121L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 5705352404344982191L,
+                    UUIDLeast: -8134466707754451375L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 171375761892658075L,
+                    UUIDLeast: -8468875101800578050L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 8234783663269364577L,
+                    UUIDLeast: -4890501722946868548L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -2376350828115767692L,
+                    UUIDLeast: -8987315320040260463L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 2124522147147301494L,
+                    UUIDLeast: -9122118408314110885L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -5368690766919744666L,
+                    UUIDLeast: -8938790969520201111L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 3487565259566695076L,
+                    UUIDLeast: -7967030731484838374L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -7065368465825643077L,
+                    UUIDLeast: -6034021104745270940L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 5924939765525925419L,
+                    UUIDLeast: -4630364325736648899L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -4988144898958733987L,
+                    UUIDLeast: -6361118428003606592L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 2738929373016182641L,
+                    UUIDLeast: -8946865253774920135L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -3801225194067177672L,
+                    UUIDLeast: -6586624321849018929L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -5567391469351057311L,
+                    UUIDLeast: -9050281547210412615L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                }
+            ],
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 32.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 2.0d,
+            Name: "generic.attackDamage"
+        }
+    ],
+    Invulnerable: 0b,
+    TransformHasDisplay: 0b,
+    NoFallDamage: 0b,
+    AbsorptionAmount: 0.0f,
+    TransformHasRole: 0b,
+    Name: "M16A4 RIFLEMAN",
+    GuardSpecific: 0b,
+    FallDistance: 0.0f,
+    NpcIdleSound: "",
+    Weapons: [
+        {
+            Slot: 0b,
+            id: "flansmod:m16a4",
+            Count: 1b,
+            tag: {
+                attachments: {
+                    barrel: {
+                    },
+                    grip: {
+                    },
+                    generic_0: {
+                    },
+                    scope: {
+                    },
+                    stock: {
+                    }
+                },
+                ammo: [
+                    {
+                        id: 4510s,
+                        Count: 1b,
+                        Damage: 30s
+                    }
+                ],
+                Paint: "M16A4"
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: "customnpcs:npcBlackBullet",
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    NPCDialogOptions: [
+    ],
+    AggroRange: 40,
+    DirectLOS: 1b,
+    HealthRegen: 1,
+    NpcModelData: {
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        Breasts: 0b,
+        Headwear: 2b,
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        ExtraData: {
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        }
+    },
+    minDelay: 20,
+    DoorInteract: 1,
+    MoveSpeed: 6,
+    TransformEditingModus: 0b,
+    UsingSkinUrl: 0b,
+    Leashed: 0b,
+    SkinUrl: "",
+    CanSwim: 1b,
+    MaxHealth: 20,
+    HideBodyWhenKilled: 1b,
+    AttackSpeed: 20,
+    GuardAttackAnimals: 0b,
+    PotionDuration: 5,
+    maxDelay: 40,
+    ScriptEnabled: 0b,
+    Role: 0,
+    DropChance: [
+        {
+            Integer: 4,
+            Slot: 0
+        },
+        {
+            Integer: 13,
+            Slot: 1
+        },
+        {
+            Integer: 100,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
+    ],
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    pDamage: 7,
+    KilledTime: 0L,
+    AimWhileShooting: 1b,
+    CanPickUpLoot: 0b,
+    AttackOtherFactions: 1b,
+    CanDrown: 1b,
+    AttackTime: 0s,
+    pSize: 5,
+    CanSprint: 0b,
+    CanLeap: 0b,
+    TransformIsActive: 0b,
+    MovingState: 1,
+    MovingPos: 0,
+    PotionAmp: 0,
+    OnAttack: 0,
+    TacticalRadius: 8,
+    MaxExp: 0,
+    PortalCooldown: 0,
+    pGlows: 1b,
+    TransformHasAdvanced: 0b,
+    TransformHasStats: 0b,
+    FiringSound: "flansmod:M4CarbineShoot",
+    ModRev: 16,
+    Accuracy: 80,
+    MinExp: 0,
+    Armor: [
+        {
+            Slot: 0b,
+            id: "flansmod:kskHelmet",
+            Count: 1b,
+            tag: {
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: "flansmod:kskBody",
+            Count: 1b,
+            tag: {
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 2b,
+            id: "flansmod:kskPants",
+            Count: 1b,
+            tag: {
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 3b,
+            id: "flansmod:kskBoots",
+            Count: 1b,
+            tag: {
+            },
+            Damage: 0s
+        }
+    ],
+    CloakTexture: "",
+    GlowTexture: "",
+    MaxFiringRange: 35,
+    pXlr8: 0b,
+    UUIDLeast: 6353188137108776358L,
+    Health: 20s,
+    pExplode: 0b,
+    pStick: 0b,
+    MovingPause: 1b,
+    NpcDeathSound: "minecraft:game.player.hurt",
+    FactionID: 2,
+    Title: "TEST DUMMY",
+    TotalTicksAlive: 16657L,
+    Rotation: [
+        -47.431114f,
+        0.0f
+    ],
+    ShowName: 0,
+    npcInteracting: 1b,
+    AvoidsWater: 0b,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    NoLivingAnimation: 0b,
+    SpawnCycle: 0
+}

@@ -1,0 +1,902 @@
+{
+    ReturnToStart: 1b,
+    NpcInv: [
+        {
+            Slot: 0b,
+            id: "flansmod:barrett",
+            Count: 1b,
+            tag: {
+                attachments: {
+                    barrel: {
+                    },
+                    grip: {
+                    },
+                    generic_1: {
+                    },
+                    generic_0: {
+                    },
+                    scope: {
+                    },
+                    stock: {
+                    }
+                },
+                ammo: [
+                    {
+                    }
+                ],
+                Paint: "Barrett"
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: "flansmod:barrettAmmo",
+            Count: 1b,
+            Damage: 0s
+        },
+        {
+            Slot: 2b,
+            id: "flansmod:m14",
+            Count: 1b,
+            tag: {
+                ammo: [
+                    {
+                        id: 4389s,
+                        Count: 1b,
+                        Damage: 0s
+                    }
+                ],
+                attachments: {
+                    barrel: {
+                    },
+                    grip: {
+                    },
+                    generic_0: {
+                    },
+                    scope: {
+                        id: 4781s,
+                        Count: 1b,
+                        Damage: 0s
+                    },
+                    stock: {
+                    }
+                },
+                Paint: "M14"
+            },
+            Damage: 0s
+        }
+    ],
+    PotionEffect: 0,
+    Size: 5,
+    stopAndInteract: 0b,
+    Resistances: {
+        Arrow: 1.0704225f,
+        Explosion: 0.0f,
+        Knockback: 1.0704225f,
+        Melee: 1.0704225f
+    },
+    BossBar: 0b,
+    RespawnTime: 60,
+    NpcAngrySound: "",
+    ReactsToFire: 0b,
+    IgnoreCobweb: 0b,
+    PositionOffsetZ: 5.0f,
+    PositionOffsetY: 5.0f,
+    PositionOffsetX: 5.0f,
+    TransformHasAI: 0b,
+    AttackStrenght: 2,
+    PersistenceRequired: 0b,
+    id: "customnpcs.CustomNpc",
+    HealF: 20.0f,
+    MovingPatern: 0,
+    NpcLines: {
+        Lines: [
+        ]
+    },
+    DefendFaction: 1b,
+    FireIndirect: 0,
+    NpcVisible: 0,
+    LinkedNpcName: "",
+    MercenaryHiredTime: 0L,
+    FindShelter: 2,
+    GuardTargets: [
+    ],
+    ScriptsContainers: [
+    ],
+    Air: 300s,
+    TacticalVariant: 0,
+    Orientation: 0,
+    ScriptLanguage: "ECMAScript",
+    KnockBack: 0,
+    TransformHasJob: 0b,
+    CustomName: "",
+    CanDespawn: 0b,
+    BurnInSun: 0b,
+    StandingState: 0,
+    AttackInvisible: 0b,
+    HurtTime: 0s,
+    WalkingRange: 5,
+    MercenaryInfiniteDays: 0b,
+    CustomNameVisible: 0b,
+    ShotCount: 1,
+    pDur: 5,
+    AttackRange: 2,
+    NpcKillLines: {
+        Lines: [
+            {
+                Line: "TARGET DOWN",
+                Song: "",
+                Slot: 0
+            }
+        ]
+    },
+    PotionImmune: 0b,
+    AvoidsSun: 0b,
+    MercenaryDisableGui: 0b,
+    GuardAttackCreepers: 1b,
+    Texture: "customnpcs:textures/entity/humanmale/Steve.png",
+    NpcJob: 3,
+    BurstCount: 1,
+    NpcAttackLines: {
+        Lines: [
+        ]
+    },
+    pSpeed: 40,
+    pArea: 0,
+    DeathTime: 0s,
+    pImpact: 3,
+    DropChances: [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    MoveState: 0,
+    RangeAndMelee: 1,
+    pRender3D: 0b,
+    MercenaryDayRates: [
+        {
+            Integer: 100,
+            Slot: 0
+        }
+    ],
+    Motion: [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    CombatRegen: 0,
+    pEffect: 0,
+    DistanceToMelee: 2,
+    NpcStepSound: "",
+    FireRate: 8,
+    pEffAmp: 0,
+    OnGround: 1b,
+    Dimension: 0,
+    ImmuneToFire: 0b,
+    NpcKilledLines: {
+        Lines: [
+        ]
+    },
+    GuardAttackMobs: 1b,
+    UUIDMost: 38521293468737L,
+    Fire: -1s,
+    DisablePitch: 0b,
+    pPhysics: 1b,
+    TransformHasInv: 0b,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Line: "Hello @p",
+                Song: "",
+                Slot: 0
+            },
+            {
+                Line: "@p Did you know that the verb \"to snipe\" originated in the 1770s among soldiers in British India where a hunter skilled enough to kill the elusive snipe was dubbed a \"sniper\" The term sniper was first attested in 1824 in the sense of the word \"sharpshooter\"-Wikipedia",
+                Song: "minecraft:creeper.primed",
+                Slot: 1
+            }
+        ]
+    },
+    pSpin: 0b,
+    NpcHurtSound: "minecraft:game.player.hurt",
+    pTrail: 0,
+    CreatureType: 0,
+    Attributes: [
+        {
+            Base: 20.0d,
+            Name: "generic.maxHealth"
+        },
+        {
+            Base: 0.0d,
+            Modifiers: [
+                {
+                    UUIDMost: -793154530073097935L,
+                    UUIDLeast: -8425335753221208664L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -738201005239087349L,
+                    UUIDLeast: -8711837651721065935L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 4422510437756322582L,
+                    UUIDLeast: -7183817978955051474L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -7873266535243562580L,
+                    UUIDLeast: -5123814620490130130L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -8599265382721040627L,
+                    UUIDLeast: -5537106969098684828L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -3793552230756365538L,
+                    UUIDLeast: -6779442274581155286L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -4579378284585007291L,
+                    UUIDLeast: -7687845844130594907L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -7962343764427192092L,
+                    UUIDLeast: -5167667661916400451L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -7083727572198405770L,
+                    UUIDLeast: -8546624533181840303L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 5705352404344982191L,
+                    UUIDLeast: -8134466707754451375L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 8655709027401813799L,
+                    UUIDLeast: -5138054298164665660L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -5371528063656836439L,
+                    UUIDLeast: -7379909653751951774L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 5235339231790320167L,
+                    UUIDLeast: -7427145309233507033L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -2115726411607293283L,
+                    UUIDLeast: -6396653785647787365L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 1300988138293448538L,
+                    UUIDLeast: -7958097336262448786L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -3915917706320720605L,
+                    UUIDLeast: -9219136152109156484L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 6276882296496475593L,
+                    UUIDLeast: -6083874124447399200L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 4949731307246013685L,
+                    UUIDLeast: -7554151714476153378L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -1231371499087117147L,
+                    UUIDLeast: -7421726063933260905L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -2235399550261443472L,
+                    UUIDLeast: -6231043213216359400L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 917570740764623653L,
+                    UUIDLeast: -7728602118328389692L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 171375761892658075L,
+                    UUIDLeast: -8468875101800578050L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 5944573159012453301L,
+                    UUIDLeast: -6572572568498230076L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 1447192297413495805L,
+                    UUIDLeast: -7703398519931732844L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 2124522147147301494L,
+                    UUIDLeast: -9122118408314110885L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -7065368465825643077L,
+                    UUIDLeast: -6034021104745270940L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 5924939765525925419L,
+                    UUIDLeast: -4630364325736648899L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: 8819525158578703356L,
+                    UUIDLeast: -6109942228023543529L,
+                    Amount: 0.20000000298023224d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                },
+                {
+                    UUIDMost: -3801225194067177672L,
+                    UUIDLeast: -6586624321849018929L,
+                    Amount: 0.0d,
+                    Operation: 0,
+                    Name: "KnockbackResist"
+                }
+            ],
+            Name: "generic.knockbackResistance"
+        },
+        {
+            Base: 0.30000001192092896d,
+            Modifiers: [
+                {
+                    UUIDMost: -793154530073097935L,
+                    UUIDLeast: -8425335753221208664L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -738201005239087349L,
+                    UUIDLeast: -8711837651721065935L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 4422510437756322582L,
+                    UUIDLeast: -7183817978955051474L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -7873266535243562580L,
+                    UUIDLeast: -5123814620490130130L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -8599265382721040627L,
+                    UUIDLeast: -5537106969098684828L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -3793552230756365538L,
+                    UUIDLeast: -6779442274581155286L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -4579378284585007291L,
+                    UUIDLeast: -7687845844130594907L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -7962343764427192092L,
+                    UUIDLeast: -5167667661916400451L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -7083727572198405770L,
+                    UUIDLeast: -8546624533181840303L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 5705352404344982191L,
+                    UUIDLeast: -8134466707754451375L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 8655709027401813799L,
+                    UUIDLeast: -5138054298164665660L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -5371528063656836439L,
+                    UUIDLeast: -7379909653751951774L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 5235339231790320167L,
+                    UUIDLeast: -7427145309233507033L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -2115726411607293283L,
+                    UUIDLeast: -6396653785647787365L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 1300988138293448538L,
+                    UUIDLeast: -7958097336262448786L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -3915917706320720605L,
+                    UUIDLeast: -9219136152109156484L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 6276882296496475593L,
+                    UUIDLeast: -6083874124447399200L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 4949731307246013685L,
+                    UUIDLeast: -7554151714476153378L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -1231371499087117147L,
+                    UUIDLeast: -7421726063933260905L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -2235399550261443472L,
+                    UUIDLeast: -6231043213216359400L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 917570740764623653L,
+                    UUIDLeast: -7728602118328389692L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 171375761892658075L,
+                    UUIDLeast: -8468875101800578050L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 5944573159012453301L,
+                    UUIDLeast: -6572572568498230076L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 1447192297413495805L,
+                    UUIDLeast: -7703398519931732844L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 2124522147147301494L,
+                    UUIDLeast: -9122118408314110885L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -7065368465825643077L,
+                    UUIDLeast: -6034021104745270940L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 5924939765525925419L,
+                    UUIDLeast: -4630364325736648899L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: 8819525158578703356L,
+                    UUIDLeast: -6109942228023543529L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                },
+                {
+                    UUIDMost: -3801225194067177672L,
+                    UUIDLeast: -6586624321849018929L,
+                    Amount: 0.0d,
+                    Operation: 2,
+                    Name: "MovementSpeed"
+                }
+            ],
+            Name: "generic.movementSpeed"
+        },
+        {
+            Base: 32.0d,
+            Name: "generic.followRange"
+        },
+        {
+            Base: 2.0d,
+            Name: "generic.attackDamage"
+        }
+    ],
+    Invulnerable: 0b,
+    TransformHasDisplay: 0b,
+    NoFallDamage: 0b,
+    AbsorptionAmount: 0.0f,
+    TransformHasRole: 0b,
+    Name: "SNIPER RIFLEMAN (TM)",
+    GuardSpecific: 0b,
+    FallDistance: 0.0f,
+    NpcIdleSound: "",
+    MercenaryDialogHired: "Thank you for hiring me for {days} Days",
+    Weapons: [
+        {
+            Slot: 0b,
+            id: "flansmod:barrett",
+            Count: 1b,
+            tag: {
+                attachments: {
+                    barrel: {
+                    },
+                    grip: {
+                    },
+                    generic_1: {
+                    },
+                    generic_0: {
+                    },
+                    scope: {
+                    },
+                    stock: {
+                    }
+                },
+                ammo: [
+                    {
+                    }
+                ],
+                Paint: "Barrett"
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: "customnpcs:npcBlackBullet",
+            Count: 1b,
+            Damage: 0s
+        }
+    ],
+    NPCDialogOptions: [
+    ],
+    AggroRange: 64,
+    DirectLOS: 1b,
+    HealthRegen: 1,
+    MercenaryRefuseSoulstone: 0b,
+    MercenaryDialogFarewell: "My days with you are over. Farewell  {player}",
+    NpcModelData: {
+        LegsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        BodyConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        LegParts: {
+            Type: 0b,
+            PlayerTexture: 1b,
+            Color: 16777215
+        },
+        Parts: [
+        ],
+        Breasts: 0b,
+        Headwear: 2b,
+        ArmsConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        },
+        ExtraData: {
+        },
+        HeadConfig: {
+            ScaleZ: 1.0f,
+            TransZ: 0.0f,
+            TransY: 0.0f,
+            TransX: 0.0f,
+            ScaleY: 1.0f,
+            ScaleX: 1.0f
+        }
+    },
+    minDelay: 20,
+    DoorInteract: 1,
+    MoveSpeed: 6,
+    TransformEditingModus: 0b,
+    UsingSkinUrl: 0b,
+    Leashed: 0b,
+    SkinUrl: "",
+    CanSwim: 1b,
+    MercenaryInv: {
+        NpcMiscInv: [
+            {
+                Slot: 0b,
+                id: "flansmod:fuelCan",
+                Count: 1b,
+                Damage: 0s
+            }
+        ]
+    },
+    MaxHealth: 20,
+    HideBodyWhenKilled: 1b,
+    AttackSpeed: 20,
+    GuardAttackAnimals: 0b,
+    PotionDuration: 5,
+    maxDelay: 40,
+    ScriptEnabled: 0b,
+    Role: 2,
+    DropChance: [
+        {
+            Integer: 2,
+            Slot: 0
+        },
+        {
+            Integer: 9,
+            Slot: 1
+        },
+        {
+            Integer: 1,
+            Slot: 2
+        },
+        {
+            Integer: 100,
+            Slot: 3
+        },
+        {
+            Integer: 100,
+            Slot: 4
+        },
+        {
+            Integer: 100,
+            Slot: 5
+        },
+        {
+            Integer: 100,
+            Slot: 6
+        },
+        {
+            Integer: 100,
+            Slot: 7
+        },
+        {
+            Integer: 100,
+            Slot: 8
+        }
+    ],
+    FactionPoints: {
+        DecreaseFaction1Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFactions1: -1,
+        OptionFactions2: -1,
+        OptionFaction1Points: 100,
+        DecreaseFaction2Points: 0b
+    },
+    pDamage: 25,
+    KilledTime: 0L,
+    MercenaryDaysHired: 0,
+    AimWhileShooting: 1b,
+    CanPickUpLoot: 0b,
+    AttackOtherFactions: 1b,
+    CanDrown: 1b,
+    AttackTime: 0s,
+    pSize: 5,
+    CanSprint: 0b,
+    CanLeap: 0b,
+    TransformIsActive: 0b,
+    MovingState: 0,
+    MovingPos: 0,
+    PotionAmp: 0,
+    OnAttack: 0,
+    TacticalRadius: 8,
+    MaxExp: 0,
+    PortalCooldown: 0,
+    pGlows: 1b,
+    TransformHasAdvanced: 0b,
+    TransformHasStats: 0b,
+    FiringSound: "flansmod:BarrettShoot",
+    ModRev: 16,
+    Accuracy: 99,
+    MinExp: 0,
+    Armor: [
+        {
+            Slot: 0b,
+            id: "flansmod:kskHelmet",
+            Count: 1b,
+            tag: {
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 1b,
+            id: "flansmod:kskBody",
+            Count: 1b,
+            tag: {
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 2b,
+            id: "flansmod:kskPants",
+            Count: 1b,
+            tag: {
+            },
+            Damage: 0s
+        },
+        {
+            Slot: 3b,
+            id: "flansmod:kskBoots",
+            Count: 1b,
+            tag: {
+            },
+            Damage: 0s
+        }
+    ],
+    CloakTexture: "",
+    MercenaryIsFollowing: 1b,
+    GlowTexture: "",
+    MaxFiringRange: 64,
+    pXlr8: 0b,
+    UUIDLeast: -4333282550953110071L,
+    Health: 20s,
+    pExplode: 0b,
+    pStick: 0b,
+    MovingPause: 1b,
+    NpcDeathSound: "minecraft:game.player.hurt",
+    FactionID: 0,
+    Title: "TEST DUMMY",
+    TotalTicksAlive: 24577L,
+    Rotation: [
+        380.67874f,
+        0.0f
+    ],
+    ShowName: 0,
+    npcInteracting: 0b,
+    AvoidsWater: 0b,
+    Equipment: [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    NoLivingAnimation: 0b,
+    SpawnCycle: 0
+}

@@ -1,0 +1,75 @@
+Aroma1997Core-1.7.10-1.0.2.9.jar
+AromaBackup-1.7.10-0.0.0.4.jar
+Baubles-1.7.10-1.0.1.10.jar
+BiblioCraft[v1.10.4][MC1.7.10].jar
+BigReactors-0.4.3A (1).jar
+BiomesOPlenty-1.7.10-2.1.0.1283-universal.jar
+Botania r1.6-193.jar
+buildcraft-7.0.6.jar
+buildcraft-compat-7.0.8.jar
+Carpenter's Blocks v3.3.6 - MC 1.7.10.jar
+ChickenChunks-1.7.10-1.3.4.19-universal.jar
+Chisel2-2.3.10.37.jar
+CodeChickenCore-1.7.10-1.0.7.46-universal.jar
+CoFHCore-[1.7.10]3.0.2-262.jar
+ComputerCraft1.73.jar
+CustomNPCs_1.7.10d.jar
+DynamicLights-1.7.10.jar
+Enchiridion-1.7.X-1.2b.jar
+EnderStorage-1.7.10-1.4.7.36-universal.jar
+EnderTech-1.7.10-0.3.2.388.jar
+EnderZoo-1.7.10-1.0.11.28 (1).jar
+fastcraft-1.21.jar
+Flans Mod-1.7.10-4.10.0.jar
+Flaxbeard'sSteamPower-1.7.10-0.28.7.jar
+forestry_1.7.10-3.5.7.16.jar
+funky-locomotion-1.7.10-beta-5c.jar
+GardenStuff-1.7.10-1.6.3.jar
+HardcoreDarkness-1.1.jar
+Hats-4.0.1.jar
+iChunUtil-4.1.3.jar
+IGW-Mod-1.7.10-1.1.3-18-universal.jar
+InventoryTweaks-1.59-dev-153.jar
+ironchest-1.7.10-6.0.62.742-universal.jar
+Jabba-1.1.4_1.7.10 (1).jar
+JourneyMap5.0.0RC2_Unlimited_MC1.7.10.jar
+logisticspipes-0.9.1.15 (1).jar
+LunatriusCore-1.7.10-1.1.2.21-universal.jar
+malisiscore-1.7.10-0.12.3 (2).jar
+malisisdoors-1.7.10-1.8.2.jar
+Mantle-1.7.10-0.3.2.jar
+Mariculture-Deluxe-1.7.10-1.2.4.2a.jar
+Morph-Beta-0.9.1.jar
+Morpheus-1.7.10-1.5.26.jar
+MrTJPCore-1.7.10-1.0.9.22-universal.jar
+NetherOres-[1.7.10]2.3.0-12.jar
+NotEnoughItems-1.7.10-1.0.5.111-universal.jar
+OpenBlocks-1.7.10-1.4.3.jar
+OpenEye-0.6-1.7.10.jar
+OpenModsLib-1.7.10-0.7.3.jar
+OpenModularTurrets-1.7.10-1.3.8-35.jar
+PneumaticCraft-1.7.10-1.8.2-84-universal.jar
+ProjectRed-1.7.10-4.7.0pre2.87-Base.jar
+ProjectRed-1.7.10-4.7.0pre2.87-Compat.jar
+ProjectRed-1.7.10-4.7.0pre2.87-Integration.jar
+ProjectRed-1.7.10-4.7.0pre2.87-Lighting.jar
+ProjectRed-1.7.10-4.7.0pre2.87-Mechanical_beta.jar
+ProjectRed-1.7.10-4.7.0pre2.87-World.jar
+Railcraft_1.7.10-9.6.1.0.jar
+RedstoneArsenal-[1.7.10]1.1.0-80.jar
+Schematica-1.7.10-1.7.5.120-universal.jar
+SimplyJetpacks-MC1.7.10-1.5.1.jar
+Stefinus Guns-0.5.2.jar
+StevesCarts2.0.0.b18.jar
+StevesFactoryManagerA93.jar
+TConstruct-1.7.10-1.8.5.jar
+ThermalExpansion-[1.7.10]4.0.1-182.jar
+ThermalFoundation-[1.7.10]1.0.0-81.jar
+TiCTooltips-mc1.7.10-1.2.4.jar
+TMechworks-1.7.10-0.2.14.100.jar
+Translocator-1.7.10-1.1.2.15-universal.jar
+VersionChecker-1.1.9.jar
+Waila-1.5.10_1.7.10.jar
+Wawla-1.3.0-1.7.10.jar
+WR-CBE-1.7.10-1.4.1.9-universal.jar
+WTP-1.7.10-1.0.29.1.jar
