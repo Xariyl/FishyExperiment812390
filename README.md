@@ -8,6 +8,6 @@ Use this repository to track issues, requests, explore and test ideas for the de
 
 Currently under beta-test development on Xariyl's server at \[ 198.24.164.187:25565 \]
 
-See the \[ [modlist.txt](FishyExperiment812390/modlist.txt) \] file for the current list of mods and their versions.
+See the \[ [modlist.txt](https://github.com/Xariyl/FishyExperiment812390/blob/master/modlist.txt) \] file for the current list of mods and their versions.
 
-See the \[ [Flan_filelist.txt](FishyExperiment812390/Flan filelist.txt) \] file for the current list of content-packs (*.jar's not uploaded to github).
+See the \[ [Flan_filelist.txt](https://github.com/Xariyl/FishyExperiment812390/blob/master/Flan%20filelist.txt) \] file for the current list of content-packs (*.jar's not uploaded to github).
