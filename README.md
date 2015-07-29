@@ -6,7 +6,7 @@ Modpack by Oden_the_Fish
 
 Use this repository to track issues, requests, explore and test ideas for the development of the modpack.
 
-Currently under beta-test development on Xariyl's server at \[ 198.24.164.187:25565 \]
+Currently under beta-test development on Xariyl's server at \[ 23.235.250.99:25565 \]
 
 See the \[ [modlist.txt](https://github.com/Xariyl/FishyExperiment812390/blob/master/modlist.txt) \] file for the current list of mods and their versions.
 
