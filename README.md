@@ -1,7 +1,7 @@
 # FishyExperiment812390
 Modpack by Oden_the_Fish
 
-[download from Dropbox](https://www.dropbox.com/s/m4um29kbj4gibfy/experiment%20812390.zip?dl=0) or on the Technic Launcher.
+[download from Dropbox](https://www.dropbox.com/s/m4um29kbj4gibfy/experiment%20812390.zip?dl=0), and soon to be available on Curse.
 
 
 Use this repository to track issues, requests, explore and test ideas for the development of the modpack.
