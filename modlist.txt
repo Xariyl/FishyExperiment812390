@@ -20,7 +20,6 @@ Enchiridion-1.7.X-1.2b.jar
 EnderStorage-1.7.10-1.4.7.36-universal.jar
 EnderTech-1.7.10-0.3.2.388.jar
 EnderZoo-1.7.10-1.0.11.28 (1).jar
-fastcraft-1.21.jar
 Flans Mod-1.7.10-4.10.0.jar
 Flaxbeard'sSteamPower-1.7.10-0.28.7.jar
 forestry_1.7.10-3.6.2.19.jar
