@@ -1,12 +1,9 @@
 # FishyExperiment812390
 Modpack by Oden_the_Fish
 
-[download from Dropbox](https://www.dropbox.com/s/m4um29kbj4gibfy/experiment%20812390.zip?dl=0), and soon to be available on Curse.
+Modpack now available on the Feed-the-Beast launcher, use pack code: Experiment812390. Current release is version 1.0.0
 
-
-Use this repository to track issues, requests, explore and test ideas for the development of the modpack.
-
-Currently under beta-test development on Xariyl's server at \[ 23.235.250.99:25565 \]
+Our beta-test world is still live on Xariyl's server at \[ 23.235.250.99:25565 \], feel free to come join us!
 
 See the \[ [modlist.txt](https://github.com/Xariyl/FishyExperiment812390/blob/master/modlist.txt) \] file for the current list of mods and their versions.
 
