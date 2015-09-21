@@ -1,4 +1,4 @@
-# FishyExperiment812390
+# FishyExperiment812390: A modpack with small amounts of tech, magic, adventure and most of all... combat!
 Modpack by Oden_the_Fish
 
 Modpack now available on the Feed-the-Beast launcher, use pack code: Experiment812390. Current release is version 1.0.0
